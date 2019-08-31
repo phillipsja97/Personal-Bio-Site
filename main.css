@@ -1,0 +1,53 @@
+h1 {
+    color: white;
+    font-family: 
+}
+
+.heading {
+    background-image: url(https://www.trailways.com/wp-content/uploads/2017/07/Nashville-skyline.jpg);
+    background-repeat: none;
+    background-size: stretch;
+    height: 350px;
+    margin: 0px;
+}
+
+#navLinks {
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+}
+
+#technologiesPage {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background-color: rgb(196, 188, 188);
+    margin-top: 20px;
+}
+body {
+    background-color: rgb(95, 86, 86);
+}
+
+#bioPage {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background-color: rgb(196, 188, 188);
+    margin-top: 20px;
+}
+
+#projectsPage {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background-color: rgb(196, 188, 188);
+    margin-top: 20px;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background-color: rgb(196, 188, 188);
+    margin-top: 20px;
+}
