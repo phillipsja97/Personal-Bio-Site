@@ -1,20 +1,35 @@
-h1 {
-    color: white;
-    font-family: 
+.pageTitle {
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    border-style: solid;
+    background-color: white;
 }
 
 .heading {
-    background-image: url(https://www.trailways.com/wp-content/uploads/2017/07/Nashville-skyline.jpg);
+    background-image: url(https://media.iceportal.com/59073/photos/63422366_XXL.jpg);
     background-repeat: none;
     background-size: stretch;
     height: 350px;
     margin: 0px;
 }
-
+/* 
 #navLinks {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     word-spacing: 10px;
+} */
+
+.bioButton {
+    background-color: white;
+
+}
+
+.techButton {
+    background-color: white;
+}
+
+.projButton {
+    background-color: white;
 }
 
 #technologiesPage {
@@ -28,12 +43,33 @@ body {
     background-color: rgb(95, 86, 86);
 }
 
-#bioPage {
-    display: flex;
-    justify-content: center;
+.bioBody {
     border-style: solid;
-    background-color: rgb(196, 188, 188);
-    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+#bioPage {
+    border-style: solid;
+    /* background-color: rgb(196, 188, 188); */
+    background-image: url("https://i.stack.imgur.com/7YKUD.jpg");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: black;
+    font-weight: bold;
+   
+}
+
+.bioTitle {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.bioImage {
+    padding-right: 75px;
 }
 
 #projectsPage {
@@ -45,9 +81,16 @@ body {
 }
 
 .page-footer {
-    display: flex;
-    justify-content: center;
+   font-size: 50px;
+}
+
+.techStyle {
+    font-size: 25px;
+}
+
+.projectsCard {
     border-style: solid;
-    background-color: rgb(196, 188, 188);
-    margin-top: 20px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+
 }
