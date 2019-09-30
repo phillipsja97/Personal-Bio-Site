@@ -1,7 +1,8 @@
-# Personal Bio Site 1
+# Personal Bio Site 2 (updated)
 
 ## Description
-Create a personal website with information about myself, my projects and experience with different technologies. Projects page should use Javascript to loop through different projects and only show what I want at that time.
+* (1st Draft) Create a personal website with information about myself, my projects and experience with different technologies. Projects page should use Javascript to loop through different projects and only show what I want at that time.
+* (2nd Draft) Transitioning the webpage to a Single Page Application (SPA) and having a NavBar that will create a click event that will only show the information based on what section you click. 
 
 ## Screenshots
 
@@ -17,3 +18,4 @@ Create a personal website with information about myself, my projects and experie
 * HTML5
 * Cascading Style Sheets (CSS)
 * Javascript
+* Bootstrap
