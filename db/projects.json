@@ -1,0 +1,28 @@
+{
+"projects1": {
+  "title": "Solar System Project", 
+  "screenshot": "https://raw.githubusercontent.com/phillipsja97/solar-system/master/src/readme%20pic%201.PNG", 
+  "description": "This project was the first project we did using JQuery. We were tasked to create a web application that would take each planet in the solar system and list the title on a card. When you hovered over the card, a picture of the planet would appear. When you click on the planet it would pop up a fullscreen modal that would give descriptions and facts about the planet. It also has a search bar on the main page where you can search for keywords and planets.",
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Jquery, Webpack",
+  "url": "https://github.com/phillipsja97/solar-system",
+  "githubUrl": "https://github.com/phillipsja97/solar-system"
+},
+
+"project2": {
+  "title": "My Tamagotchi Pet", 
+  "screenshot": "https://raw.githubusercontent.com/phillipsja97/Tamagotchi/master/src/Screenshot.PNG",
+  "description": "The web application will be divided into quadrants. Each quadrant will have a different background color and represents a different activity that you can perform which are Eat, Play, Sleep and Fight. Each quadrant will have a progress bar that will show the status of the pet's level's. There will be an overall status bar in the middle which takes in the average of the 4 quadrants to also show the overall status as well.", 
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Webpack",
+  "url": "https://github.com/phillipsja97/Tamagotchi",
+  "githubUrl": "https://github.com/phillipsja97/Tamagotchi"
+},
+
+"project3": {
+  "title": "Sandwich Ordering WebApplication",
+  "screenshot": "https://raw.githubusercontent.com/phillipsja97/sandwich_maker/master/sandwichscreenshot.PNG",
+  "description": "This application allows you to create your own sandwich. There will be different options for bread, cheese, meats, condiments and vegetables to choose from. Once you make your selections you can run the order which will bring up the total order and its total price.",
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github.",
+  "url": "https://github.com/phillipsja97/sandwich_maker",
+  "githubUrl": "https://github.com/phillipsja97/sandwich_maker"
+  }
+}
