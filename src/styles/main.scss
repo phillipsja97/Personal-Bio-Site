@@ -1,8 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+
 .pageTitle {
     color: black;
     font-family: 'Abril Fatface', cursive;
     border-style: solid;
     background-color: white;
+}
+
+.hide {
+    display: none!important;
 }
 
 .heading {
