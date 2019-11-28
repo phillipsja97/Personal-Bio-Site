@@ -1,0 +1,31 @@
+{
+"projects1": {
+  "title": "Cool Project", 
+  "screenshot": "https://artofcoolproject.org/wordpress/wp-content/uploads/2019/06/Screen-Shot-2019-06-16-at-6.55.23-PMnew.jpg", 
+  "description": "This is the best project",
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  "available": true,
+  "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+  "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+},
+
+"project2": {
+  "title": "Cool Project #2", 
+  "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
+  "description": "This is the second-best project", 
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  "available": false,
+  "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+  "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+},
+
+"project3": {
+  "title": "Pet Adoption Cards",
+  "screenshot": "https://repository-images.githubusercontent.com/205031249/83047f80-d490-11e9-8965-36ebd8a93c4c",
+  "description": "Create a pet adoption website that will sort through different types of animals. Have each button be able to pull up only that specific animal.",
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github.",
+  "available": true,
+  "url": "https://github.com/phillipsja97/pet-adoption",
+  "githubUrl": "https://github.com/phillipsja97/pet-adoption"
+  }
+}
