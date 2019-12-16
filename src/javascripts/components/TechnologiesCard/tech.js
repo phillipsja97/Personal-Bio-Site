@@ -7,11 +7,9 @@ const createTechCards = () => {
   technologiesData.getTech()
     .then((technologies) => {
       let domString = '';
-      domString += '<div>';
       technologies.forEach((tech) => {
         domString += techCard.techCard(tech);
       });
-      domString += '</div>';
       utilities.printToDom('technologiesPage', domString);
     })
     .catch((error) => console.error(error));

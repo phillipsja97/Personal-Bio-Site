@@ -30,7 +30,7 @@ const listeners = () => {
     tech.addClass('hide');
     projPage.addClass('hide');
   });
-  $('body').on('click', '#navToProjects', () => {
+  $('body').on('click', '#navToProj', () => {
     bio.addClass('hide');
     tech.addClass('hide');
     projPage.removeClass('hide');

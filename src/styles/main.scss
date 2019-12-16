@@ -11,28 +11,6 @@
     display: none!important;
 }
 
-// .heading {
-//     // background-image: url(https://media.iceportal.com/59073/photos/63422366_XXL.jpg);
-//     background-repeat: none;
-//     background-size: stretch;
-//     height: 350px;
-//     margin: 0px;
-// }
-
-header img {
-    height: 80px;
-    margin-left: 40px;
-}
-
-// body {
-//     height: 125vh;
-//     background-image: url('https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg');
-//     background-size: cover;
-//     font-family: sans-serif;
-//     margin-top: 80px;
-//     padding: 30px;
-// }
-
 main {
     color: white;
 }
@@ -67,14 +45,6 @@ body {
     background-size: 100%;
 }
 
-#technologiesPage {
-    display: flex;
-    justify-content: center;
-    border-style: solid;
-    background-color: white;
-    margin-top: 20px;
-}
-
 #media-pic {
     height: 15em;
     width: 15em;
@@ -87,6 +57,11 @@ a:hover {
 
 .list-unstyled {
     background-color: rgb(255, 255, 255);
+}
+
+#technologiesPage {
+    margin: 5em;
+    margin-left: 8em;
 }
 
 .bioBody {
@@ -120,8 +95,7 @@ a:hover {
 #projectsPage {
     display: flex;
     justify-content: center;
-    border-style: solid;
-    background-color: rgb(196, 188, 188);
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
