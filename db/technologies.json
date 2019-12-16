@@ -1,0 +1,25 @@
+{
+  "technologies1": {
+    "name": "GitHub/GitBash", 
+    "imageUrl": "https://i.ytimg.com/vi/OEGm7LXAN_c/maxresdefault.jpg", 
+    "description": "Used GitBash Terminal as my command line along with Git for my version-control system and Github for my web-based code hosting and sourcing."
+  },
+
+    "technologies2": {
+      "name": "HyperText Markup Language (HTML5)",
+      "imageUrl": "https://www.diygenius.com/wp-content/uploads/2013/07/learn-html5.jpg",
+      "description": "Benn using HTML for a long time."
+    },
+
+    "technologies3": {
+    "name": "Cascading Style Sheets (CSS)",
+    "imageUrl": "https://www.trzcacak.rs/myfile/detail/222-2224600_css-html5-css3-logo-png.png",
+    "description": "Used CSS and SASS a lot."
+    },
+
+    "technologies4": {
+      "name": "Javascript",
+      "imageUrl": "https://miro.medium.com/max/1052/1*DN7ToydkJZEdVaJVK_Nhvw.png",
+      "description": "Lots and lots of javascript. "
+  }
+}

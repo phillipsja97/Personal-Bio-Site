@@ -5,13 +5,14 @@ import apiKeys from './helpers/apiKeys.json';
 import 'bootstrap';
 import '../styles/main.scss';
 import proj from './components/projectCard/projects';
+import technology from './components/TechnologiesCard/tech';
 
 const bio = $('#bioPage');
 const tech = $('#technologiesPage');
 const projPage = $('#projectsPage');
 
 const onload = () => {
-  bio.removeClass('hide');
+  bio.addClass('hide');
   tech.addClass('hide');
   projPage.addClass('hide');
 };
@@ -40,6 +41,7 @@ const listeners = () => {
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
   proj.createProjectCards();
+  technology.createTechCards();
   listeners();
 };
 

@@ -11,22 +11,60 @@
     display: none!important;
 }
 
-.heading {
-    background-image: url(https://media.iceportal.com/59073/photos/63422366_XXL.jpg);
-    background-repeat: none;
-    background-size: stretch;
-    height: 350px;
-    margin: 0px;
+// .heading {
+//     // background-image: url(https://media.iceportal.com/59073/photos/63422366_XXL.jpg);
+//     background-repeat: none;
+//     background-size: stretch;
+//     height: 350px;
+//     margin: 0px;
+// }
+
+header img {
+    height: 80px;
+    margin-left: 40px;
 }
 
-.navbar {
-    -webkit-box-shadow: 10px 13px 67px -6px rgba(48,50,69,1);
-    -moz-box-shadow: 10px 13px 67px -6px rgba(48,50,69,1);
-    box-shadow: 10px 13px 67px -6px rgba(48,50,69,1);
+// body {
+//     height: 125vh;
+//     background-image: url('https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg');
+//     background-size: cover;
+//     font-family: sans-serif;
+//     margin-top: 80px;
+//     padding: 30px;
+// }
+
+main {
+    color: white;
+}
+
+header {
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
 }
 
 body {
-    background-image: url(https://i.pinimg.com/originals/7f/22/bd/7f22bd1107b49b5eac20ce21b80d6489.jpg);
+    background-image: url(https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&w=1000&q=80);
+    background-repeat: none;
+    background-size: 100%;
 }
 
 #technologiesPage {
@@ -40,6 +78,11 @@ body {
 #media-pic {
     height: 15em;
     width: 15em;
+}
+
+a:hover {
+    color: rgb(31, 202, 202);
+    text-decoration: none !important;
 }
 
 .list-unstyled {
