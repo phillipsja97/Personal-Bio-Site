@@ -23,11 +23,12 @@ main {
 
 .contactButton {
     margin-left: 32em;
+    color: rgb(31, 202, 202);
 }
 
 
 .navbar-nav {
-    margin-left: 25em;
+    margin-left: 26em;
 }
 
 li a {
@@ -41,31 +42,32 @@ body {
     background-size: 100%;
 }
 
-h1 {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 75px;
-    color: rgb(31, 202, 202);
-    // mix-blend-mode: screen;
-    padding-top: 3em;
-    margin: 0;
-    line-height: 0.5;
-    opacity: 0.5;
-  }
+// h1 {
+//     font-family: 'Alegreya Sans SC', sans-serif;
+//     font-size: 75px;
+//     color: rgb(31, 202, 202);
+//     // mix-blend-mode: screen;
+//     padding-top: 3em;
+//     margin: 0;
+//     line-height: 0.5;
+//     opacity: 0.5;
+//   }
 
-  h1 {
-    color: rgb(31, 202, 202);;
-  }
+//   h1 {
+//     color: rgb(31, 202, 202);;
+//   }
 
-  h1 {
-    text-shadow: 0px 8px 3px rgba(0,0,0,0.1),
-                 5px 10px 3px rgba(0,0,0,0.05),
-                 -5px 10px 3px rgba(0,0,0,0.05);
-  }
+//   h1 {
+//     text-shadow: 0px 8px 3px rgba(0,0,0,0.1),
+//                  5px 10px 3px rgba(0,0,0,0.05),
+//                  -5px 10px 3px rgba(0,0,0,0.05);
+//   }
 
   .homepageButtons {
       display: flex;
       justify-content: center;
-      padding: 10em;
+      padding: 3em;
+      color: white;
   }
 
 #media-pic {
@@ -96,7 +98,7 @@ a:hover {
 }
 
 #bioPage {
-    border-style: solid;
+    // border-style: solid;
     /* background-color: rgb(196, 188, 188); */
     padding-top: 50px;
     padding-bottom: 50px;
@@ -104,11 +106,11 @@ a:hover {
     padding-left: 50px;
     color: black;
     font-weight: bold;
-   
 }
 
 .bioTitle {
     font-family: 'Abril Fatface', cursive;
+    color: rgb(31, 202, 202)
 }
 
 .bioImage {
@@ -136,3 +138,76 @@ a:hover {
     margin: 10px 10px 10px 10px;
 
 }
+
+// homepage sections
+  
+  .contain, .contain1, .contain2 {
+    padding-top: 16em;
+    overflow: hidden;
+    margin: 0 auto 50px;
+    text-align:center;
+    color: rgb(31, 202, 202);
+    text-shadow: 0px 8px 3px rgba(0,0,0,0.1),
+                 5px 10px 3px rgba(0,0,0,0.05),
+                 -5px 10px 3px rgba(0,0,0,0.05);
+  }
+  
+  .fancy-title {
+    margin: 0 0 1em 0;
+    letter-spacing:.2em;
+    position:relative;
+    overflow:hidden;
+    text-transform: uppercase;
+    font-size: 25em;
+  }
+  
+  #line { overflow:hidden; height:auto;}
+  
+  p.norm {
+   letter-spacing:.2em;
+    font-size:15px;
+  margin: 10px 0;
+    text-transform:uppercase;
+    font-size: 40px;
+  }
+  
+  .bold {
+   font-weight:700;
+    font-size:18px !important;
+    text-transform:uppercase;
+    font-size: 25em;
+  }
+  
+  .fancy-line {
+    line-height: 1;
+    text-align: center;
+    margin:auto;
+  }
+  .fancy-line span {
+    display: inline-block;
+    position: relative; 
+    font-size:15px;
+  }
+  
+  .bold span {
+  font-size:38px !important; 
+  }
+  
+  .fancy-line span:before,
+  .fancy-line span:after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-top: .07em solid #003263;
+    top: 7px;
+    width: 600px;
+  }
+  .fancy-line span:before {
+    right: 100%;
+    margin-right: 20px;
+  }
+  .fancy-line span:after {
+    left: 100%;
+    margin-left: 20px;
+  }
+  

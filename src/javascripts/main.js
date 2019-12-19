@@ -10,7 +10,7 @@ import technology from './components/TechnologiesCard/tech';
 const bio = $('#bioPage');
 const tech = $('#technologiesPage');
 const projPage = $('#projectsPage');
-const homepage = $('.homepage');
+const homepage = $('.contain');
 
 const onload = () => {
   bio.addClass('hide');
