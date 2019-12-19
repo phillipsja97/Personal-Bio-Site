@@ -26,9 +26,14 @@ main {
     color: rgb(31, 202, 202);
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
 
 .navbar-nav {
-    margin-left: 26em;
+    margin-left: 37em;
 }
 
 li a {
@@ -39,29 +44,9 @@ li a {
 body {
     background-image: url(https://images.squarespace-cdn.com/content/v1/581cb131be6594d1fe22a557/1492635385718-PJBXYT9M6F2FTWK7RXHC/ke17ZwdGBToddI8pDm48kMOUT_poN4wOaYJ2_Th3KJhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIvSUXxUPLdSTs9jgEDdd5DZDFbXuO8h6SHXbHfEEorPYKMshLAGzx4R3EDFOm1kBS/301_CARIBBEAN_SEA%28Hi_Res%29.jpg);
     background-repeat: none;
-    background-size: 100%;
+    background-size: cover;
+    background-position: fixed;
 }
-
-// h1 {
-//     font-family: 'Alegreya Sans SC', sans-serif;
-//     font-size: 75px;
-//     color: rgb(31, 202, 202);
-//     // mix-blend-mode: screen;
-//     padding-top: 3em;
-//     margin: 0;
-//     line-height: 0.5;
-//     opacity: 0.5;
-//   }
-
-//   h1 {
-//     color: rgb(31, 202, 202);;
-//   }
-
-//   h1 {
-//     text-shadow: 0px 8px 3px rgba(0,0,0,0.1),
-//                  5px 10px 3px rgba(0,0,0,0.05),
-//                  -5px 10px 3px rgba(0,0,0,0.05);
-//   }
 
   .homepageButtons {
       display: flex;
@@ -110,7 +95,7 @@ a:hover {
 
 .bioTitle {
     font-family: 'Abril Fatface', cursive;
-    color: rgb(31, 202, 202)
+    color: rgb(31, 202, 202);
 }
 
 .bioImage {
@@ -124,8 +109,24 @@ a:hover {
     margin-top: 20px;
 }
 
-.page-footer {
-   font-size: 50px;
+.contactFooter {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60px;
+    padding: 15 15 15 15px;
+    position: absolute;
+    bottom: 0;
+    overflow:hidden;
+    clear: both;
+}
+
+#contactIcons {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 3em;
+    color: rgb(31, 202, 202);
+    opacity: 0.5;
 }
 
 .techStyle {
