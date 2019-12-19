@@ -8,8 +8,8 @@
 }
 
 .brand {
-    height: 9em;
-    width: 9em;
+    height: 8em;
+    width: 8em;
 }
 
 .hide {
@@ -20,35 +20,53 @@ main {
     color: white;
 }
 
-header {
-    background-color: transparent;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0 25px 0 black;
+
+.contactButton {
+    margin-left: 32em;
 }
 
-header * {
-    display: inline;
+
+.navbar-nav {
+    margin-left: 25em;
 }
 
-header li {
-    margin: 20px;
-}
-
-header li a {
+li a {
     color: black;
     text-decoration: none;
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&w=1000&q=80);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/581cb131be6594d1fe22a557/1492635385718-PJBXYT9M6F2FTWK7RXHC/ke17ZwdGBToddI8pDm48kMOUT_poN4wOaYJ2_Th3KJhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIvSUXxUPLdSTs9jgEDdd5DZDFbXuO8h6SHXbHfEEorPYKMshLAGzx4R3EDFOm1kBS/301_CARIBBEAN_SEA%28Hi_Res%29.jpg);
     background-repeat: none;
     background-size: 100%;
 }
+
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 75px;
+    color: rgb(31, 202, 202);
+    // mix-blend-mode: screen;
+    padding-top: 3em;
+    margin: 0;
+    line-height: 0.5;
+    opacity: 0.5;
+  }
+
+  h1 {
+    color: rgb(31, 202, 202);;
+  }
+
+  h1 {
+    text-shadow: 0px 8px 3px rgba(0,0,0,0.1),
+                 5px 10px 3px rgba(0,0,0,0.05),
+                 -5px 10px 3px rgba(0,0,0,0.05);
+  }
+
+  .homepageButtons {
+      display: flex;
+      justify-content: center;
+      padding: 10em;
+  }
 
 #media-pic {
     height: 15em;

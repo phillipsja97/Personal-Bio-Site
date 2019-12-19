@@ -10,6 +10,7 @@ import technology from './components/TechnologiesCard/tech';
 const bio = $('#bioPage');
 const tech = $('#technologiesPage');
 const projPage = $('#projectsPage');
+const homepage = $('.homepage');
 
 const onload = () => {
   bio.addClass('hide');
@@ -24,17 +25,20 @@ const listeners = () => {
     tech.removeClass('hide');
     bio.addClass('hide');
     projPage.addClass('hide');
+    homepage.addClass('hide');
   });
   $('body').on('click', '#navToBio', () => {
     bio.removeClass('hide');
     tech.addClass('hide');
     projPage.addClass('hide');
+    homepage.addClass('hide');
   });
   $('body').on('click', '#navToProj', () => {
     bio.addClass('hide');
     tech.addClass('hide');
     projPage.removeClass('hide');
     proj.createProjectCards();
+    homepage.addClass('hide');
   });
 };
 
