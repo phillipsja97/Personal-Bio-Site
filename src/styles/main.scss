@@ -210,7 +210,9 @@ a:hover {
   
 
  .transbox {
-    margin: 10em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
     background-color: #ffffff;
     border: 1px solid rgba(41,203,209,0.12);
     opacity: 0.9;
@@ -224,4 +226,17 @@ a:hover {
     margin: 5%;
     font-weight: bold;
     color: #000000;
+  }
+
+  #bioTitle {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1em;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(31, 202, 202);
+    opacity: 0.6;
+  }
+
+  .aboutMe {
+      margin-top: 3em;
   }

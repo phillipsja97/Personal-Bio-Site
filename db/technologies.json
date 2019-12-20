@@ -4,28 +4,76 @@
     "imageUrl": "https://image.flaticon.com/icons/png/512/25/25231.png", 
     "description": "Used GitBash Terminal as my command line along with Git for my version-control system and Github for my web-based code hosting and sourcing."
   },
+  
+  "technologies2": {
+    "name": "Git", 
+    "imageUrl": "http://shijuvarghese.com/wp-content/uploads/2018/03/git-logo.png", 
+    "description": "Used GitBash Terminal as my command line along with Git for my version-control system and Github for my web-based code hosting and sourcing."
+  },
 
-    "technologies2": {
+    "technologies3": {
       "name": "HyperText Markup Language (HTML5)",
       "imageUrl": "https://www.iconninja.com/files/840/443/663/logo-icon.png",
       "description": "Benn using HTML for a long time."
-    },
+  },
 
-    "technologies3": {
+    "technologies4": {
     "name": "Cascading Style Sheets (CSS)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
     "description": "Used CSS and SASS a lot."
-    },
+  },
 
-    "technologies4": {
+    "technologies5": {
       "name": "Javascript",
       "imageUrl": "https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png",
       "description": "Lots and lots of javascript. "
   },
 
-    "technologies5": {
-      "name": "Reacta",
+    "technologies6": {
+      "name": "JQuery",
+      "imageUrl": "https://www.w3schools.in/wp-content/uploads/jquery-logo.png",
+      "description": "Write less. Do More."
+  },
+
+  "technologies7": {
+    "name": "Bootstrap",
+    "imageUrl": "https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png",
+    "description": "Make things pretty"
+},  
+
+  "technologies8": {
+    "name": "Firebase",
+    "imageUrl": "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png",
+    "description": "Store that data"
+},
+    "technologies9": {
+      "name": "React",
       "imageUrl": "https://www.import.io/wp-content/uploads/2017/10/React-logo-1.png",
       "description": "Hello React!"
-    }
+  },
+
+  "technologies10": {
+    "name": "NPM",
+    "imageUrl": "https://outof.me/wp-content/uploads/2013/10/npm-onupdate-logo.png",
+    "description": "NPM install"
+},
+
+
+  "technologies11": {
+    "name": "Axios",
+    "imageUrl": "https://user-images.githubusercontent.com/8939680/57233884-20344080-6fe5-11e9-8df3-0df1282e1574.png",
+    "description": "Axios call"
+  },
+
+  "technologies12": {
+    "name": "Sass",
+    "imageUrl": " https://cdn.worldvectorlogo.com/logos/sass-1.svg",
+    "description": "Style it up."
+  },
+
+  "technologies13": {
+    "name": "Visual Studios Code",
+    "imageUrl": "https://www.lunarsoft.net/wp-content/uploads/visualstudio-320x320.png",
+    "description": "Best editor ever"
+  }
 }

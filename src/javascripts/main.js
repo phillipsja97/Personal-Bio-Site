@@ -7,7 +7,7 @@ import '../styles/main.scss';
 import proj from './components/projectCard/projects';
 import technology from './components/TechnologiesCard/tech';
 
-const bio = $('#bioPage');
+const bio = $('.aboutMe');
 const tech = $('#technologiesPage');
 const projPage = $('#projectsPage');
 const homepage = $('.contain');

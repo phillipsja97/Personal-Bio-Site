@@ -4,12 +4,30 @@
   width: 10em;
   opacity: 0.6;
   padding: 1em;
+  margin-top: 1em;
 }
 
-#technologiesPage {
-  display: inline-flex;
+hr {
+  border-style: inset;
+  border-width: 0.5em;
+  color: rgb(31, 202, 202);
+}
+
+.techArea {
+  display: flex;
   flex-wrap: wrap;
-  margin: 10em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+#techTitle {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2em;
+  margin-left: 1em;
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(31, 202, 202);
+  opacity: 0.6;
 }
 
 // .card {
