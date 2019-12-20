@@ -69,11 +69,6 @@ a:hover {
     background-color: rgb(255, 255, 255);
 }
 
-#technologiesPage {
-    margin: 5em;
-    margin-left: 6em;
-}
-
 .bioBody {
     border-style: solid;
     border-radius: 10px;
@@ -82,24 +77,25 @@ a:hover {
     padding: 10px 10px 10px 10px;
 }
 
-#bioPage {
-    // border-style: solid;
-    /* background-color: rgb(196, 188, 188); */
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
-    color: black;
-    font-weight: bold;
-}
+// #bioPage {
+//     // border-style: solid;
+//     /* background-color: rgb(196, 188, 188); */
+//     padding-top: 50px;
+//     padding-bottom: 50px;
+//     padding-right: 50px;
+//     padding-left: 50px;
+//     color: black;
+//     font-weight: bold;
+// }
 
-.bioTitle {
+#bioTitle {
     font-family: 'Abril Fatface', cursive;
     color: rgb(31, 202, 202);
 }
 
-.bioImage {
-    padding-right: 75px;
+#bioImage {
+    height: 30em;
+    width: 30em;
 }
 
 #projectsPage {
@@ -212,3 +208,20 @@ a:hover {
     margin-left: 20px;
   }
   
+
+ .transbox {
+    margin: 10em;
+    background-color: #ffffff;
+    border: 1px solid rgba(41,203,209,0.12);
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(41,203,209,0.12);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(41,203,209,0.12);
+    box-shadow: 10px 10px 5px 0px rgba(41,203,209,0.12);
+  }
+  
+  .transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
