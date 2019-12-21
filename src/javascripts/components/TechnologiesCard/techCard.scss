@@ -1,0 +1,47 @@
+
+.card-img-top {
+  height: 10em;
+  width: 10em;
+  opacity: 0.6;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+hr {
+  border-style: inset;
+  border-width: 0.5em;
+  color: #00A1F1;
+}
+
+.techArea {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+#techTitle {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2em;
+  margin-left: 1em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  color: black;
+  opacity: 0.6;
+  // text-shadow:
+	// 	-1px -1px 0 rgb(31, 202, 202),
+	// 	1px -1px 0 rgb(31, 202, 202),
+	// 	-1px 1px 0 rgb(31, 202, 202),
+	// 	1px 1px 0 rgb(31, 202, 202);
+}
+
+// .card {
+//   display: inline-flex;
+//   justify-content: center;
+//   width: 20em;
+//   height: 25em;
+//   -webkit-box-shadow: 10px 10px 5px 0px rgba(41,203,209,0.12);
+//     -moz-box-shadow: 10px 10px 5px 0px rgba(41,203,209,0.12);
+//     box-shadow: 10px 10px 5px 0px rgba(41,203,209,0.12);
+// }

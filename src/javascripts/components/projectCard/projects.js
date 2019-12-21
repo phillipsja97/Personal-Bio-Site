@@ -7,8 +7,9 @@ const createProjectCards = () => {
   projectsData.getProjects()
     .then((projects) => {
       let domString = '';
+      domString += '<div><h1 id="projTitle">Projects</h1></div>';
+      domString += '<hr>';
       domString += '<div>';
-      domString += '<div><h1 class="text-center">Projects I have created</h1></div>';
       projects.forEach((project) => {
         domString += projectCard.projectCard(project);
       });

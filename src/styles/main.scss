@@ -7,46 +7,82 @@
     background-color: white;
 }
 
+#brandImage {
+    height: 2em;
+    width: 3em;
+}
+
 .hide {
     display: none!important;
 }
 
-.heading {
-    background-image: url(https://media.iceportal.com/59073/photos/63422366_XXL.jpg);
-    background-repeat: none;
-    background-size: stretch;
-    height: 350px;
-    margin: 0px;
-}
-/* 
-#navLinks {
-    display: flex;
-    justify-content: space-between;
-    word-spacing: 10px;
-} */
-
-.bioButton {
-    background-color: white;
-
+main {
+    color: white;
 }
 
-.techButton {
-    background-color: white;
+
+#contactButton {
+    margin-left: 32em;
+    color: white;
+    background-color: #00A1F1;
+    opacity: 0.7;
 }
 
-.projButton {
-    background-color: white;
+#contactButton2 {
+    color: white;
+    background-color: #00A1F1;
+    opacity: 0.7;
+    margin: 0.5em;
 }
 
-#technologiesPage {
+#resumeButton {
+    color: white;
+    background-color: #00A1F1;
+    opacity: 0.7;
+    margin: 0.5em;
+}
+
+.navbar {
     display: flex;
     justify-content: center;
-    border-style: solid;
-    background-color: rgb(196, 188, 188);
-    margin-top: 20px;
 }
+
+
+.navbar-nav {
+    margin-left: 33em;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
 body {
-    background-color: rgb(95, 86, 86);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/581cb131be6594d1fe22a557/1492635385718-PJBXYT9M6F2FTWK7RXHC/ke17ZwdGBToddI8pDm48kMOUT_poN4wOaYJ2_Th3KJhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIvSUXxUPLdSTs9jgEDdd5DZDFbXuO8h6SHXbHfEEorPYKMshLAGzx4R3EDFOm1kBS/301_CARIBBEAN_SEA%28Hi_Res%29.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: fixed;
+}
+
+  .homepageButtons {
+      display: flex;
+      justify-content: center;
+      margin: 2em;
+      color: white;
+  }
+
+#media-pic {
+    height: 15em;
+    width: 15em;
+}
+
+a:hover {
+    color: #00A1F1;
+    text-decoration: none !important;
+}
+
+.list-unstyled {
+    background-color: rgb(255, 255, 255);
 }
 
 .bioBody {
@@ -57,37 +93,37 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
-#bioPage {
-    border-style: solid;
-    /* background-color: rgb(196, 188, 188); */
-    background-image: url("https://i.stack.imgur.com/7YKUD.jpg");
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
-    color: black;
-    font-weight: bold;
-   
-}
 
-.bioTitle {
+#bioTitle {
     font-family: 'Abril Fatface', cursive;
+    color: #00A1F1;
 }
 
-.bioImage {
-    padding-right: 75px;
+#bioImage {
+    height: 30em;
+    width: 30em;
 }
 
-#projectsPage {
+
+.contactFooter {
     display: flex;
     justify-content: center;
-    border-style: solid;
-    background-color: rgb(196, 188, 188);
-    margin-top: 20px;
+    bottom: 0;
+    width: 100vw;
+    height: 60px;
+    padding: 15 15 15 15px;
+    position: relative;
+    bottom: 0;
+    overflow:hidden;
+    clear: both;
 }
 
-.page-footer {
-   font-size: 50px;
+#contactIcons {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 3em;
+    color: #00A1F1;
+    opacity: 0.7;
 }
 
 .techStyle {
@@ -100,3 +136,114 @@ body {
     margin: 10px 10px 10px 10px;
 
 }
+
+// homepage sections
+  
+  .contain, .contain1, .contain2 {
+    padding-top: 16em;
+    overflow: hidden;
+    margin: 0 auto 50px;
+    text-align:center;
+    color: #00A1F1;
+    opacity: 0.7;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .fancy-title {
+    margin: 0 0 1em 0;
+    letter-spacing:.2em;
+    position:relative;
+    overflow:hidden;
+    text-transform: uppercase;
+    font-size: 25em;
+  }
+  
+  #line { overflow:hidden; height:auto;}
+  
+  p.norm {
+   letter-spacing:.2em;
+    font-size:15px;
+  margin: 10px 0;
+    text-transform:uppercase;
+    font-size: 40px;
+  }
+  
+  .bold {
+   font-weight:700;
+    font-size:18px !important;
+    text-transform:uppercase;
+    font-size: 25em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+  }
+  
+  .fancy-line {
+    text-align: center;
+    margin:auto;
+  }
+  .fancy-line span {
+    display: inline-block;
+    position: relative; 
+    font-size:15px;
+  }
+  
+  .bold span {
+  font-size:38px !important;
+  }
+  
+  .fancy-line span:before,
+  .fancy-line span:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    border: .01em solid #003263;
+    top: 30px;
+    width: 300px;
+  }
+  .fancy-line span:before {
+    right: 100%;
+    margin-right: 20px;
+  }
+  .fancy-line span:after {
+    left: 100%;
+    margin-left: 20px;
+  }
+  
+
+ .transbox {
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    background-color: #ffffff;
+    border: 1px solid #00A1F1;
+    opacity: 0.9;
+    // filter: alpha(opacity=60); /* For IE8 and earlier */
+    // -webkit-box-shadow: 10px 10px 5px 0px #00A1F1;
+    // -moz-box-shadow: 10px 10px 5px 0px #00A1F1;
+    // box-shadow: 10px 10px 5px 0px #00A1F1;
+  }
+  
+  .transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  #bioTitle {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    color: black;
+    opacity: 0.6;
+    // text-shadow:
+	// 	-1px -1px 0 #00A1F1,
+	// 	1px -1px 0 #00A1F1,
+	// 	-1px 1px 0 #00A1F1,
+	// 	1px 1px 0 #00A1F1;
+  }
+
+  .aboutMe {
+      margin-top: 3em;
+  }
