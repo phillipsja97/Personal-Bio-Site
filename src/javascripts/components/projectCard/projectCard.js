@@ -8,8 +8,9 @@ const projectCard = (project) => {
       <div class="media-body text-center">
         <h5 class="mt-0" id="cardTitle">${project.title}</h5>
           <div class="cardInfo"><p>${project.description}</p></div>
+          <button class="btn btn-outline-primary" id="demoButton">Live Demo</button>
+          <button class="btn btn-outline-primary" id="gitButton">GitHub</button>
       </div>
-      <footer></footer>
   </div>
     `;
   return domString;
