@@ -1,9 +1,41 @@
-.projCard {
-  display: inline-flex;
+#projCard {
+  display: flex;
   justify-content: center;
-  width: 20em;
-  height: 45em;
   padding: 1em;
   border-style: solid;
+  background-color: white;
   border-color: rgb(31, 202, 202);
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+#projImage {
+  height: 20em;
+  width: 20em;
+}
+
+#projTitle {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2em;
+  margin-left: 1em;
+  font-family: 'Abril Fatface', cursive;
+  color: black;
+  opacity: 0.6;
+  text-shadow:
+		-1px -1px 0 rgb(31, 202, 202),
+		1px -1px 0 rgb(31, 202, 202),
+		-1px 1px 0 rgb(31, 202, 202),
+		1px 1px 0 rgb(31, 202, 202);
+}
+
+hr {
+  border-style: inset;
+  border-width: 0.5em;
+  color: rgb(31, 202, 202);
+}
+
+.cardTitle {
+  justify-content: center;
 }

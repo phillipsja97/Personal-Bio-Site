@@ -77,16 +77,6 @@ a:hover {
     padding: 10px 10px 10px 10px;
 }
 
-// #bioPage {
-//     // border-style: solid;
-//     /* background-color: rgb(196, 188, 188); */
-//     padding-top: 50px;
-//     padding-bottom: 50px;
-//     padding-right: 50px;
-//     padding-left: 50px;
-//     color: black;
-//     font-weight: bold;
-// }
 
 #bioTitle {
     font-family: 'Abril Fatface', cursive;
@@ -98,20 +88,15 @@ a:hover {
     width: 30em;
 }
 
-#projectsPage {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
 
 .contactFooter {
     display: flex;
     justify-content: center;
+    bottom: 0;
     width: 100vw;
     height: 60px;
     padding: 15 15 15 15px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     overflow:hidden;
     clear: both;
@@ -187,7 +172,12 @@ a:hover {
   }
   
   .bold span {
-  font-size:38px !important; 
+  font-size:38px !important;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
   }
   
   .fancy-line span:before,
@@ -233,8 +223,13 @@ a:hover {
     justify-content: flex-start;
     margin-left: 1em;
     font-family: 'Abril Fatface', cursive;
-    color: rgb(31, 202, 202);
+    color: black;
     opacity: 0.6;
+    text-shadow:
+		-1px -1px 0 rgb(31, 202, 202),
+		1px -1px 0 rgb(31, 202, 202),
+		-1px 1px 0 rgb(31, 202, 202),
+		1px 1px 0 rgb(31, 202, 202);
   }
 
   .aboutMe {
