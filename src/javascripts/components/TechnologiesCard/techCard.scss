@@ -10,7 +10,7 @@
 hr {
   border-style: inset;
   border-width: 0.5em;
-  color: rgb(31, 202, 202);
+  color: #00A1F1;
 }
 
 .techArea {
@@ -25,14 +25,15 @@ hr {
   justify-content: flex-start;
   margin-top: 2em;
   margin-left: 1em;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   color: black;
   opacity: 0.6;
-  text-shadow:
-		-1px -1px 0 rgb(31, 202, 202),
-		1px -1px 0 rgb(31, 202, 202),
-		-1px 1px 0 rgb(31, 202, 202),
-		1px 1px 0 rgb(31, 202, 202);
+  // text-shadow:
+	// 	-1px -1px 0 rgb(31, 202, 202),
+	// 	1px -1px 0 rgb(31, 202, 202),
+	// 	-1px 1px 0 rgb(31, 202, 202),
+	// 	1px 1px 0 rgb(31, 202, 202);
 }
 
 // .card {

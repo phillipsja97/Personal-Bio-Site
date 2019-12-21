@@ -4,7 +4,7 @@
   padding: 1em;
   border-style: solid;
   background-color: white;
-  border-color: rgb(31, 202, 202);
+  border-color: #00A1F1;
   margin-top: 1em;
   margin-left: 3em;
   margin-right: 3em;
@@ -20,14 +20,15 @@
   justify-content: flex-start;
   margin-top: 2em;
   margin-left: 1em;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   color: black;
   opacity: 0.6;
-  text-shadow:
-		-1px -1px 0 rgb(31, 202, 202),
-		1px -1px 0 rgb(31, 202, 202),
-		-1px 1px 0 rgb(31, 202, 202),
-		1px 1px 0 rgb(31, 202, 202);
+  // text-shadow:
+	// 	-1px -1px 0 rgb(31, 202, 202),
+	// 	1px -1px 0 rgb(31, 202, 202),
+	// 	-1px 1px 0 rgb(31, 202, 202),
+	// 	1px 1px 0 rgb(31, 202, 202);
 }
 
 hr {
@@ -36,6 +37,17 @@ hr {
   color: rgb(31, 202, 202);
 }
 
-.cardTitle {
+#cardTitle {
   justify-content: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.cardInfo {
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
 }

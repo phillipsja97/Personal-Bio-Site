@@ -7,8 +7,9 @@ const projectCard = (project) => {
     <img src="${project.screenshot}" id="projImage" class="align-self-center mr-3" alt="${project.title}">
       <div class="media-body text-center">
         <h5 class="mt-0" id="cardTitle">${project.title}</h5>
-          <p>${project.description}</p>
+          <div class="cardInfo"><p>${project.description}</p></div>
       </div>
+      <footer></footer>
   </div>
     `;
   return domString;
