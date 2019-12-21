@@ -61,7 +61,7 @@ body {
     background-image: url(https://images.squarespace-cdn.com/content/v1/581cb131be6594d1fe22a557/1492635385718-PJBXYT9M6F2FTWK7RXHC/ke17ZwdGBToddI8pDm48kMOUT_poN4wOaYJ2_Th3KJhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIvSUXxUPLdSTs9jgEDdd5DZDFbXuO8h6SHXbHfEEorPYKMshLAGzx4R3EDFOm1kBS/301_CARIBBEAN_SEA%28Hi_Res%29.jpg);
     background-repeat: none;
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
 }
 
   .homepageButtons {
@@ -101,30 +101,32 @@ a:hover {
 
 #bioImage {
     height: 30em;
-    width: 30em;
+    width: 25em;
 }
 
 
 .contactFooter {
-    display: flex;
-    justify-content: center;
-    bottom: 0;
+    margin-top: 10em;
     width: 100vw;
-    height: 60px;
-    padding: 15 15 15 15px;
     position: relative;
     bottom: 0;
-    overflow:hidden;
-    clear: both;
+    div {
+        padding: 15 15 15 15px;
+        display: inline-flex;
+        justify-content: center;
+        font-size: 3em;
+        color: #00A1F1;
+        opacity: 0.7;
+    }
 }
 
-#contactIcons {
-    display: inline-flex;
-    justify-content: center;
-    font-size: 3em;
-    color: #00A1F1;
-    opacity: 0.7;
-}
+// #contactIcons {
+//     display: inline-flex;
+//     justify-content: center;
+//     font-size: 3em;
+//     color: #00A1F1;
+//     opacity: 0.7;
+// }
 
 .techStyle {
     font-size: 25px;
