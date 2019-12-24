@@ -49,7 +49,6 @@ const listeners = () => {
     bio.addClass('hide');
     tech.addClass('hide');
     projPage.addClass('hide');
-    proj.createProjectCards();
     homepage.addClass('hide');
     contactPage.removeClass('hide');
   });

@@ -252,3 +252,18 @@ a:hover {
 
   // contact me business card 
 
+  .contactImage {
+    height: 20em;
+    width: 20em;
+    padding: 2em;
+  }
+
+  .contactBody {
+      display: flex;
+      justify-content: center;
+  }
+
+  #contactMe {
+      margin-top: 10em;
+  }
+
