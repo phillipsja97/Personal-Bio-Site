@@ -252,18 +252,82 @@ a:hover {
 
   // contact me business card 
 
-  .contactImage {
-    height: 20em;
-    width: 20em;
-    padding: 2em;
-  }
+ .contactContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-auto-rows: 20em;
+        border: 1px solid black;
+        margin: 2em 10em 2em 10em;
+ }
 
-  .contactBody {
-      display: flex;
-      justify-content: center;
-  }
+ #linkedInQuad {
+    border: 1px solid black;
+ }
 
-  #contactMe {
-      margin-top: 10em;
-  }
+ #githubQuad {
+    border: 1px solid black;
+ }
+
+ #emailQuad {
+    border: 1px solid black;
+    *{pointer-events: none;}
+ }
+
+ #phoneQuad {
+    border: 1px solid black;
+    *{pointer-events: none;}
+ }
+
+
+ .linkContactImage {
+     height: 100%;
+     width: 100%;
+     opacity: 0.5;
+ }
+
+ .gitContactImage {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+ }
+
+ .emailContactImage {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+ }
+
+ .cellContactImage {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+ }
+
+ #contactTitle {
+     display: flex;
+     justify-content: flex-start;
+     margin-left: 1em;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 700;
+     color: black;
+     opacity: 0.6;
+ }
+
+ #contactMe {
+     margin-top: 3em;
+ }
+
+ #emailText {
+    margin-top: 2em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+ }
+
+ #phoneText {
+    margin-top: 2em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+ }
+
+ 
 
