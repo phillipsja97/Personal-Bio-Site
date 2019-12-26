@@ -1,28 +1,37 @@
 {
 "projects1": {
-  "title": "Solar System Project", 
+  "title": "Solar System", 
   "screenshot": "https://raw.githubusercontent.com/phillipsja97/solar-system/master/src/readme%20pic%201.PNG", 
   "description": "This project was the first project we did using JQuery. We were tasked to create a web application that would take each planet in the solar system and list the title on a card. When you hovered over the card, a picture of the planet would appear. When you click on the planet it would pop up a fullscreen modal that would give descriptions and facts about the planet. It also has a search bar on the main page where you can search for keywords and planets.",
-  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Jquery, Webpack",
-  "url": "https://github.com/phillipsja97/solar-system",
+  "technologiesUsed": "HTML5, CSS, Javascript, jQuery, Sass, NPM, Webpack, and Version Control with Github",
+  "url": "https://solarsystem-7ac16.firebaseapp.com",
   "githubUrl": "https://github.com/phillipsja97/solar-system"
 },
 
 "project2": {
-  "title": "My Tamagotchi Pet", 
+  "title": "My Tamagotchi Pet Web Application", 
   "screenshot": "https://raw.githubusercontent.com/phillipsja97/Tamagotchi/master/src/Screenshot.PNG",
-  "description": "The web application will be divided into quadrants. Each quadrant will have a different background color and represents a different activity that you can perform which are Eat, Play, Sleep and Fight. Each quadrant will have a progress bar that will show the status of the pet's level's. There will be an overall status bar in the middle which takes in the average of the 4 quadrants to also show the overall status as well.", 
-  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Webpack",
-  "url": "https://github.com/phillipsja97/Tamagotchi",
+  "description": "The web application is divided into quadrants. Each quadrant has a different background color and represents a different activity that you can perform which are: Eat, Play, Sleep and Fight. Each quadrant has a progress bar that will show the status of the pet's level's. There is also an overall status bar in the middle which takes in the average of the 4 quadrants to also show the overall status of the pet.", 
+  "technologiesUsed": "HTML, CSS, JavaScript, Sass, NPM, Webpack, and Version Control with Github",
+  "url": "https://tamagotchi-ee0bd.firebaseapp.com/",
   "githubUrl": "https://github.com/phillipsja97/Tamagotchi"
 },
 
 "project3": {
-  "title": "Sandwich Ordering WebApplication",
-  "screenshot": "https://raw.githubusercontent.com/phillipsja97/sandwich_maker/master/sandwichscreenshot.PNG",
-  "description": "This application allows you to create your own sandwich. There will be different options for bread, cheese, meats, condiments and vegetables to choose from. Once you make your selections you can run the order which will bring up the total order and its total price.",
-  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github.",
-  "url": "https://github.com/phillipsja97/sandwich_maker",
-  "githubUrl": "https://github.com/phillipsja97/sandwich_maker"
+  "title": "Shark Attack Web Application",
+  "screenshot": "https://github.com/phillipsja97/shark-attack/blob/master/src/Assets/SharkAttackSreenshot.PNG?raw=true",
+  "description": "This application was my introduction to React. The application is divided up into two sections, Shark Tank and Graveyard. The students from class are loaded in the Shark Tank and shark attack button randomizes a student being eaten and sent to the Graveyard.",
+  "technologiesUsed": "HTML, CSS, JavaScript, NPM, Firebase, Bootstrap, Sass, React and Version Control with Github.",
+  "url": "https://shark-attack-3d879.firebaseapp.com",
+  "githubUrl": "https://github.com/phillipsja97/shark-attack"
+  },
+
+"project4": {
+  "title": "Pinterest",
+  "screenshot": "https://github.com/phillipsja97/pinterest/blob/master/src/assets/pinterestscreenshot.PNG?raw=true",
+  "description": "This application is a riff off of the popular app Pinterest. When you first go to the site you will be prompted to log in with Google Authentication. The app allows users to create their own boards to save links and images to. The project utilizes full CRUD to be able to add, delete, and update thier boards and links",
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Webpack, Firebase, NPM, Axios, Bootstrap, Sass, and Version Control with Github.",
+  "url": "https://pinterest-b7a84.firebaseapp.com",
+  "githubUrl": "https://github.com/phillipsja97/pinterest"
   }
 }
