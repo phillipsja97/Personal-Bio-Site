@@ -75,5 +75,11 @@
     "name": "Visual Studios Code",
     "imageUrl": "https://www.lunarsoft.net/wp-content/uploads/visualstudio-320x320.png",
     "description": "Best editor ever"
+  },
+
+  "technologies14": {
+    "name": "Webpack Module Bundler",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Webpack.png",
+    "description": "modules"
   }
 }
