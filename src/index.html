@@ -7,7 +7,8 @@
     <script src="https://kit.fontawesome.com/956d2b3dbe.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600i|Titillium+Web:300i,400,600,700,900&display=swap" rel="stylesheet">
-    <title>Jamie Phillips: Web Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Jamie Phillips</title>
 </head>
 </body>
         <!-- <header>
@@ -56,7 +57,7 @@
           <p class="norm bold">Developer. Designer. Student.</p>
           <div class="homepageButtons">
             <button class="btn btn-outline-info" id="resumeButton">Resume</button>
-            <button class="btn btn-outline-info" id="contactButton2">Contact</button>
+            <button class="btn btn-outline-info" id="navToCont">Contact</button>
             </div>
         </div>
 
@@ -75,10 +76,43 @@
             <div class="media">
               <img src="https://github.com/phillipsja97/Personal-Bio-Site/blob/master/src/javascripts/assets/profilePic.jpg?raw=true" class="mr-3" id="bioImage" alt="name">
               <div class="media-body">
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                <p class="bioParagraph">My journey into software development started out with a simple question to a colleague about our company website, but it was one that would lead me down the rabbit hole of learning everything I could about coding. Over the next year and a half, I worked on some courses on free online learning programs, learned about different career options and coding languages, and finally started researching formal training schools and options. Enter, Nashville Software School. I love the puzzle that is software development. It frustrates you. It challenges you. It pushes you the whole time but once you finish a project or a problem, the reward is so satisfying.</p>
+                <button class="btn btn-primary" id="photoStories">Photo Story</button>
               </div>
             </div>
           </div>
+        </div>
+        <div id="aboutMePhotos" class="d-flex flex-wrap justify-content-center">
+          <div id="backButton">
+          <button class="btn btn-primary" id="backToBioButton">Back to Bio</button>
+          </div>
+        </div>
+        <div id="storiesContainer">
+        <div class="card" style="width: 18rem;">
+          <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/1916400_182758262125_2017198_n.jpg?_nc_cat=105&_nc_ohc=zSD4Of945qUAQlansd0Sphry3lNxiXDO07xa_ZlzclR980CuEWmGomTJg&_nc_ht=scontent-atl3-1.xx&oh=3193e18b0a11dd35b8dc6f7f528f1dcc&oe=5EA67C34" class="aboutPhotos" alt="Me in front of a plane">
+          <div class="card-body">
+            <p class="card-text">Veteran of the United States Navy where I served for 4 years and 3 deployments.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/309546_10150282149032126_28123275_n.jpg?_nc_cat=108&_nc_ohc=yHaDWuGw320AQla0g0T7QgogtpAs521cSmGJKg6n3y9vELs0p1L4o4OhQ&_nc_ht=scontent-atl3-1.xx&oh=af57928c55ce9770a0d23a3980893c09&oe=5EB12F4F" class="aboutPhotos" alt="Me in front of a plane">
+          <div class="card-body">
+            <p class="card-text">Daredevil. Adventurist.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/45627628_10155453176357126_6919538672903651328_o.jpg?_nc_cat=110&_nc_ohc=GdCgNckSbf0AQlIID7qQo-tlrrSV8KxTMHPMT83noUmMXX2jGkmB4yRjw&_nc_ht=scontent-atl3-1.xx&oh=9ae0f8b4dfa133c8ef5c50acad93d58a&oe=5EA1C964" class="aboutPhotos" alt="Me in front of a plane">
+          <div class="card-body">
+            <p class="card-text">Veteran of the United States Navy where I served for 4 years and 3 deployments.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/299506_10150320404197126_1294355899_n.jpg?_nc_cat=110&_nc_ohc=1qR0M9IFnkEAQnZUje_iwLQ7Fd0Qq9AZk_4nCIA0NNx-K1NA5Y6RrdN1w&_nc_ht=scontent-atl3-1.xx&oh=9a59583d180ad35915d7966c57f60790&oe=5EB44FF8" class="aboutPhotos" alt="Me in front of a plane">
+          <div class="card-body">
+            <p class="card-text">Veteran of the United States Navy where I served for 4 years and 3 deployments.</p>
+          </div>
+        </div>
+
         </div>
       </div>
 
@@ -130,13 +164,60 @@
 
         <div class="fullPage" id="projectsPage"></div>
 
-        <div class="contact-page" id="contactsPage"></div>
+        <!-- Contacts Page -->
+        <div id="contactMe">
+          <h1 class="mt-0 text-center" id="contactTitle">Contact Me</h1>
+          <hr>
+            <div class="contactContainer">
+              <div id="linkedInQuad">
+                <a href="https://www.linkedin.com/in/jamieaphillips/"><img src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-02-512.png" class="linkContactImage"></a>
+              </div>
+              <div id="githubQuad">
+                <a href="https://github.com/phillipsja97"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ei-sc-github.svg/768px-Ei-sc-github.svg.png" class="gitContactImage"></a>
+              </div>
+              <div id="emailQuad">
+                <h1 id="emailText" class="d-flex text-center">Send me an email: phillipsja97@gmail.com</h1>
+                <img src="https://kraftbusiness.com/wp-content/uploads/2019/01/gmail.png" class="emailContactImage">
+              </div>
+              <div id="phoneQuad">
+                <h1 id="phoneText" class="d-flex text-center">My Contact Number: 919-368-9311</h1>
+                <img src="https://i.pinimg.com/originals/18/cc/66/18cc66056d2cbfe18267aec2ab6fd3ab.png" class="cellContactImage">
+              </div>
+            </div>
+        </div>
+
+        <!-- <div class="d-flex justify-content-around flex-wrap" id="contactMe">
+          <div class="contactContainer">
+            <img src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-02-512.png" class="contactImage" alt="LinkedIn">
+            <div class="contactBody">
+              <a href="https://www.linkedin.com/in/jamieaphillips/" class="btn btn-outline-primary">Go to LinkedIn</a>
+            </div>
+          </div>
+          <div style="contactContainer">
+            <img src="http://pngimg.com/uploads/github/github_PNG20.png" class="contactImage" alt="GitHub">
+            <div class="contactBody">
+              <a href="https://github.com/phillipsja97" class="btn btn-outline-primary">Go to my Github</a>
+            </div>
+          </div>
+          <div class="contactContainer">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/gmail-512.png" class="contactImage" alt="Email">
+            <div class="contactBody">
+            <h4>phillipsja97@gmail.com</h4>
+            </div>
+          </div>
+          <div class="contactContainer">
+            <img src="https://static.thenounproject.com/png/660535-200.png" class="contactImage" alt="Phone Number">
+            <div class="contactBody">
+            <h4>919-368-9311</h4>
+            </div>
+          </div>
+        </div> -->
 
         <footer class="contactFooter">
           <div class="d-flex justify-content-center">
             <a href="https://www.facebook.com/jamie.phillips.1023"><i class="fab fa-facebook-square" id="contactIcons"></i></a>
             <a href="https://github.com/phillipsja97"><i class="fab fa-github" id="contactIcons"></i></a>
-            <a href="https://www.linkedin.com/in/jphillips97/"><i class="fab fa-linkedin" id="contactIcons"></i></a>
+            <a href="https://www.linkedin.com/in/jamieaphillips/"><i class="fab fa-linkedin" id="contactIcons"></i></a>
           </div>
         </footer>
 </body>

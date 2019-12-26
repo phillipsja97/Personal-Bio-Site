@@ -42,6 +42,13 @@ main {
     margin: 0.5em;
 }
 
+#navToCont {
+    color: white;
+    background-color: #00A1F1;
+    opacity: 0.7;
+    margin: 0.5em;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -56,6 +63,7 @@ li a {
     color: black;
     text-decoration: none;
 }
+
 
 body {
     background-image: url(https://images.squarespace-cdn.com/content/v1/581cb131be6594d1fe22a557/1492635385718-PJBXYT9M6F2FTWK7RXHC/ke17ZwdGBToddI8pDm48kMOUT_poN4wOaYJ2_Th3KJhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIvSUXxUPLdSTs9jgEDdd5DZDFbXuO8h6SHXbHfEEorPYKMshLAGzx4R3EDFOm1kBS/301_CARIBBEAN_SEA%28Hi_Res%29.jpg);
@@ -86,11 +94,30 @@ a:hover {
 }
 
 .bioBody {
+    display: flex;
+    justify-content: center;
     border-style: solid;
     border-radius: 10px;
     background-color: white;
     color: black;
-    padding: 10px 10px 10px 10px;
+}
+
+.media-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bioParagraph {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+}
+
+.bioParagraph::first-letter {
+    font-size: 200%;
+    color: #00A1F1;
+    font-family: 'Pacifico', cursive;
+    padding-right: .2em;
 }
 
 
@@ -100,8 +127,29 @@ a:hover {
 }
 
 #bioImage {
-    height: 30em;
-    width: 25em;
+    height: 21em;
+    width: 15em;
+}
+
+.aboutPhotos {
+    height: 15em;
+}
+
+#aboutMePhotos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#storiesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 1em 1em 10.5em;
+}
+
+#photoStories {
+    display: flex;
+    align-content: center;
+    // margin-top: 1em;
 }
 
 
@@ -218,7 +266,6 @@ a:hover {
     margin-top: 2em;
     background-color: #ffffff;
     border: 1px solid #00A1F1;
-    opacity: 0.9;
     // filter: alpha(opacity=60); /* For IE8 and earlier */
     // -webkit-box-shadow: 10px 10px 5px 0px #00A1F1;
     // -moz-box-shadow: 10px 10px 5px 0px #00A1F1;
@@ -249,3 +296,85 @@ a:hover {
   .aboutMe {
       margin-top: 3em;
   }
+
+  // contact me business card 
+
+ .contactContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-auto-rows: 20em;
+        border: 1px solid black;
+        margin: 2em 10em 2em 10em;
+ }
+
+ #linkedInQuad {
+    border: 1px solid black;
+ }
+
+ #githubQuad {
+    border: 1px solid black;
+ }
+
+ #emailQuad {
+    border: 1px solid black;
+    *{pointer-events: none;}
+ }
+
+ #phoneQuad {
+    border: 1px solid black;
+    *{pointer-events: none;}
+ }
+
+
+ .linkContactImage {
+     height: 100%;
+     width: 100%;
+     opacity: 0.5;
+ }
+
+ .gitContactImage {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+ }
+
+ .emailContactImage {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+ }
+
+ .cellContactImage {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+ }
+
+ #contactTitle {
+     display: flex;
+     justify-content: flex-start;
+     margin-left: 1em;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 700;
+     color: black;
+     opacity: 0.6;
+ }
+
+ #contactMe {
+     margin-top: 3em;
+ }
+
+ #emailText {
+    margin-top: 2em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+ }
+
+ #phoneText {
+    margin-top: 2em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+ }
+
+ 
+

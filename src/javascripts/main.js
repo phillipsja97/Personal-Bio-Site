@@ -11,11 +11,21 @@ const bio = $('.aboutMe');
 const tech = $('#technologiesPage');
 const projPage = $('#projectsPage');
 const homepage = $('.contain');
+const contactPage = $('#contactMe');
+const phone = $('#phoneText');
+const email = $('#emailText');
+const story = $('#storiesContainer');
+const aboutMe = $('#aboutMePhotos');
 
 const onload = () => {
   bio.addClass('hide');
   tech.addClass('hide');
   projPage.addClass('hide');
+  contactPage.addClass('hide');
+  phone.addClass('hide');
+  email.addClass('hide');
+  story.addClass('hide');
+  aboutMe.addClass('hide');
 };
 
 window.onload = onload;
@@ -26,12 +36,14 @@ const listeners = () => {
     bio.addClass('hide');
     projPage.addClass('hide');
     homepage.addClass('hide');
+    contactPage.addClass('hide');
   });
   $('body').on('click', '#navToBio', () => {
     bio.removeClass('hide');
     tech.addClass('hide');
     projPage.addClass('hide');
     homepage.addClass('hide');
+    contactPage.addClass('hide');
   });
   $('body').on('click', '#navToProj', () => {
     bio.addClass('hide');
@@ -39,6 +51,64 @@ const listeners = () => {
     projPage.removeClass('hide');
     proj.createProjectCards();
     homepage.addClass('hide');
+    contactPage.addClass('hide');
+  });
+  $('body').on('click', '#contactButton', () => {
+    bio.addClass('hide');
+    tech.addClass('hide');
+    projPage.addClass('hide');
+    homepage.addClass('hide');
+    contactPage.removeClass('hide');
+  });
+  $('body').on('click', '#navToCont', () => {
+    bio.addClass('hide');
+    tech.addClass('hide');
+    projPage.addClass('hide');
+    homepage.addClass('hide');
+    contactPage.removeClass('hide');
+  });
+  $('body').on('click', '#photoStories', () => {
+    $('#storiesContainer').removeClass('hide');
+    $('#aboutMePhotos').removeClass('hide');
+    $('.background').addClass('hide');
+  });
+  $('body').on('click', '#backToBioButton', () => {
+    $('#storiesContainer').addClass('hide');
+    $('#aboutMePhotos').addClass('hide');
+    $('.background').removeClass('hide');
+  });
+};
+
+const contactHovers = () => {
+  $('.linkContactImage').mouseenter(() => {
+    $('.linkContactImage').css('opacity', '1');
+  });
+  $('.linkContactImage').mouseleave(() => {
+    $('.linkContactImage').css('opacity', '0.5');
+  });
+  $('.gitContactImage').mouseenter(() => {
+    $('.gitContactImage').css('opacity', '1');
+  });
+  $('.gitContactImage').mouseleave(() => {
+    $('.gitContactImage').css('opacity', '0.5');
+  });
+  $('#emailQuad').mouseenter(() => {
+    $('.emailContactImage').hide();
+    $('#emailText').removeClass('hide');
+  });
+  $('#emailQuad').mouseleave(() => {
+    $('.emailContactImage').show();
+    $('#emailQuad').css('background-color', 'transparent');
+    $('#emailText').addClass('hide');
+  });
+  $('#phoneQuad').mouseenter(() => {
+    $('.cellContactImage').hide();
+    $('#phoneText').removeClass('hide');
+  });
+  $('#phoneQuad').mouseleave(() => {
+    $('.cellContactImage').show();
+    $('#phoneText').css('background-color', 'transparent');
+    $('#phoneText').addClass('hide');
   });
 };
 
@@ -47,6 +117,7 @@ const init = () => {
   proj.createProjectCards();
   technology.createTechCards();
   listeners();
+  contactHovers();
 };
 
 init();
