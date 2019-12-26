@@ -14,6 +14,8 @@ const homepage = $('.contain');
 const contactPage = $('#contactMe');
 const phone = $('#phoneText');
 const email = $('#emailText');
+const story = $('#storiesContainer');
+const aboutMe = $('#aboutMePhotos');
 
 const onload = () => {
   bio.addClass('hide');
@@ -22,6 +24,8 @@ const onload = () => {
   contactPage.addClass('hide');
   phone.addClass('hide');
   email.addClass('hide');
+  story.addClass('hide');
+  aboutMe.addClass('hide');
 };
 
 window.onload = onload;
@@ -62,6 +66,16 @@ const listeners = () => {
     projPage.addClass('hide');
     homepage.addClass('hide');
     contactPage.removeClass('hide');
+  });
+  $('body').on('click', '#photoStories', () => {
+    $('#storiesContainer').removeClass('hide');
+    $('#aboutMePhotos').removeClass('hide');
+    $('.background').addClass('hide');
+  });
+  $('body').on('click', '#backToBioButton', () => {
+    $('#storiesContainer').addClass('hide');
+    $('#aboutMePhotos').addClass('hide');
+    $('.background').removeClass('hide');
   });
 };
 
