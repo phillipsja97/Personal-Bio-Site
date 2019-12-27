@@ -1,5 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 
+// Main Page
+
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/581cb131be6594d1fe22a557/1492635385718-PJBXYT9M6F2FTWK7RXHC/ke17ZwdGBToddI8pDm48kMOUT_poN4wOaYJ2_Th3KJhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIvSUXxUPLdSTs9jgEDdd5DZDFbXuO8h6SHXbHfEEorPYKMshLAGzx4R3EDFOm1kBS/301_CARIBBEAN_SEA%28Hi_Res%29.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .pageTitle {
     color: black;
     font-family: 'Abril Fatface', cursive;
@@ -14,6 +23,8 @@
 main {
     color: white;
 }
+
+// Navbar
 
 .nav-link {
     color: black;
@@ -41,43 +52,54 @@ main {
     transition: all 0.4s ease 0s;
 }
 
-#contactButton2 {
-    margin-left: 32em;
-    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
-    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
-    color: white;
-    background-color: #00A1F1;
-    opacity: 0.7;
-}
+// Keeping for later use
 
-#resumeButton {
-    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
-    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
-    color: white;
-    background-color: #00A1F1;
-    opacity: 0.7;
-}
+// #contactButton2 {
+//     margin-left: 32em;
+//     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
+//     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
+//     color: white;
+//     background-color: #00A1F1;
+//     opacity: 0.7;
+// }
 
-#navToCont {
-    color: white;
-    background-color: #00A1F1;
-    opacity: 0.7;
-    margin: 0.5em;
-}
+// #resumeButton {
+//     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
+//     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
+//     color: white;
+//     background-color: #00A1F1;
+//     opacity: 0.7;
+// }
+
+// .homepageButtons {
+//     display: flex;
+//     justify-content: center;
+//     margin: 2em;
+//     color: white;
+// }
+
+// #navToCont {
+//     color: white;
+//     background-color: #00A1F1;
+//     opacity: 0.7;
+//     margin: 0.5em;
+// }
 
 
-body {
-    background-image: url(https://images.squarespace-cdn.com/content/v1/581cb131be6594d1fe22a557/1492635385718-PJBXYT9M6F2FTWK7RXHC/ke17ZwdGBToddI8pDm48kMOUT_poN4wOaYJ2_Th3KJhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIvSUXxUPLdSTs9jgEDdd5DZDFbXuO8h6SHXbHfEEorPYKMshLAGzx4R3EDFOm1kBS/301_CARIBBEAN_SEA%28Hi_Res%29.jpg);
-    background-repeat: none;
-    background-size: cover;
-    background-attachment: fixed;
-}
+// About Me Section
 
-  .homepageButtons {
-      display: flex;
-      justify-content: center;
-      margin: 2em;
-      color: white;
+#bioTitle {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    color: black;
+    opacity: 0.6;
+  }
+
+  .aboutMe {
+      margin-top: 3em;
   }
 
 #media-pic {
@@ -122,7 +144,7 @@ a:hover {
 }
 
 #mediaCard {
-    border: 1px solid #00A1F1;
+    border: 1px solid black;
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
 }
@@ -130,11 +152,6 @@ a:hover {
 #bioPage {
     margin-bottom: 5.5em;
     padding-bottom: 5.5em;
-}
-
-#bioTitle {
-    font-family: 'Abril Fatface', cursive;
-    color: #00A1F1;
 }
 
 #bioImage {
@@ -192,7 +209,7 @@ a:hover {
 
 #storyCard {
     margin: 1em;
-    border: 1px solid #00A1F1;
+    border: 1px solid black;
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
 }
@@ -216,6 +233,8 @@ a:hover {
     transition: all 0.4s ease 0s;
 }
 
+// Footer Section
+
 
 .contactFooter {
     margin-top: 10em;
@@ -232,26 +251,7 @@ a:hover {
     }
 }
 
-// #contactIcons {
-//     display: inline-flex;
-//     justify-content: center;
-//     font-size: 3em;
-//     color: #00A1F1;
-//     opacity: 0.7;
-// }
-
-.techStyle {
-    font-size: 25px;
-}
-
-.projectsCard {
-    border-style: solid;
-    border-radius: 10px;
-    margin: 10px 10px 10px 10px;
-
-}
-
-// homepage sections
+// homepage section
 
 #homepage {
     padding-bottom: 5em;
@@ -333,7 +333,6 @@ a:hover {
     margin-right: 10em;
     margin-top: 2em;
     background-color: #ffffff;
-    border: 1px solid #00A1F1;
     // filter: alpha(opacity=60); /* For IE8 and earlier */
     // -webkit-box-shadow: 10px 10px 5px 0px #00A1F1;
     // -moz-box-shadow: 10px 10px 5px 0px #00A1F1;
@@ -346,76 +345,58 @@ a:hover {
     color: #000000;
   }
 
-  #bioTitle {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 1em;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 700;
-    color: black;
-    opacity: 0.6;
-    // text-shadow:
-	// 	-1px -1px 0 #00A1F1,
-	// 	1px -1px 0 #00A1F1,
-	// 	-1px 1px 0 #00A1F1,
-	// 	1px 1px 0 #00A1F1;
-  }
-
-  .aboutMe {
-      margin-top: 3em;
-  }
-
-  // contact me business card 
+  // contact me section
 
  .contactContainer {
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
-        grid-auto-rows: 20em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
         border: 1px solid black;
-        margin: 2em 10em 2em 10em;
+        margin-top: 2em;
+        margin-left: 20em;
+        margin-right: 20em;
+        margin-bottom: 2em;
  }
 
- #linkedInQuad {
-    border: 1px solid black;
+a {
+     text-decoration: none !important;
  }
 
- #githubQuad {
-    border: 1px solid black;
+ #linkedIn {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center !important;
  }
 
- #emailQuad {
-    border: 1px solid black;
-    *{pointer-events: none;}
+ #github {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center !important;
  }
 
- #phoneQuad {
-    border: 1px solid black;
-    *{pointer-events: none;}
+ .links a {
+     text-decoration: none !important;
  }
 
-
- .linkContactImage {
-     height: 100%;
-     width: 100%;
-     opacity: 0.5;
+ #email {
+     align-self: center;
  }
 
- .gitContactImage {
-    height: 100%;
-    width: 100%;
-    opacity: 0.5;
+ #phone {
+     align-self: center;
  }
 
- .emailContactImage {
-    height: 100%;
-    width: 100%;
-    opacity: 0.5;
- }
-
- .cellContactImage {
-    height: 100%;
-    width: 100%;
-    opacity: 0.5;
+ #contactImage {
+     height: 10em;
+     width: 10em;
  }
 
  #contactTitle {
@@ -432,16 +413,11 @@ a:hover {
      margin-top: 3em;
  }
 
- #emailText {
-    margin-top: 2em;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 700;
- }
-
- #phoneText {
-    margin-top: 2em;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 700;
+ #contactHr {
+    border-style: inset;
+    border-width: 0.5em;
+    color: #00A1F1;
+    width: 90%;
  }
 
  

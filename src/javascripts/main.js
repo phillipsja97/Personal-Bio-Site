@@ -10,10 +10,8 @@ import technology from './components/TechnologiesCard/tech';
 const bio = $('.aboutMe');
 const tech = $('#technologiesPage');
 const projPage = $('#projectsPage');
-const homepage = $('.contain');
+const homepage = $('#homepage');
 const contactPage = $('#contactMe');
-const phone = $('#phoneText');
-const email = $('#emailText');
 const story = $('#storiesContainer');
 const aboutMe = $('#aboutMePhotos');
 
@@ -22,8 +20,6 @@ const onload = () => {
   tech.addClass('hide');
   projPage.addClass('hide');
   contactPage.addClass('hide');
-  phone.addClass('hide');
-  email.addClass('hide');
   story.addClass('hide');
   aboutMe.addClass('hide');
 };
@@ -60,13 +56,6 @@ const listeners = () => {
     homepage.addClass('hide');
     contactPage.removeClass('hide');
   });
-  $('body').on('click', '#navToCont', () => {
-    bio.addClass('hide');
-    tech.addClass('hide');
-    projPage.addClass('hide');
-    homepage.addClass('hide');
-    contactPage.removeClass('hide');
-  });
   $('body').on('click', '#photoStories', () => {
     $('#storiesContainer').removeClass('hide');
     $('#aboutMePhotos').removeClass('hide');
@@ -79,45 +68,11 @@ const listeners = () => {
   });
 };
 
-const contactHovers = () => {
-  $('.linkContactImage').mouseenter(() => {
-    $('.linkContactImage').css('opacity', '1');
-  });
-  $('.linkContactImage').mouseleave(() => {
-    $('.linkContactImage').css('opacity', '0.5');
-  });
-  $('.gitContactImage').mouseenter(() => {
-    $('.gitContactImage').css('opacity', '1');
-  });
-  $('.gitContactImage').mouseleave(() => {
-    $('.gitContactImage').css('opacity', '0.5');
-  });
-  $('#emailQuad').mouseenter(() => {
-    $('.emailContactImage').hide();
-    $('#emailText').removeClass('hide');
-  });
-  $('#emailQuad').mouseleave(() => {
-    $('.emailContactImage').show();
-    $('#emailQuad').css('background-color', 'transparent');
-    $('#emailText').addClass('hide');
-  });
-  $('#phoneQuad').mouseenter(() => {
-    $('.cellContactImage').hide();
-    $('#phoneText').removeClass('hide');
-  });
-  $('#phoneQuad').mouseleave(() => {
-    $('.cellContactImage').show();
-    $('#phoneText').css('background-color', 'transparent');
-    $('#phoneText').addClass('hide');
-  });
-};
-
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
   proj.createProjectCards();
   technology.createTechCards();
   listeners();
-  contactHovers();
 };
 
 init();
