@@ -2,7 +2,7 @@
 "projects1": {
   "title": "Solar System", 
   "screenshot": "https://raw.githubusercontent.com/phillipsja97/solar-system/master/src/readme%20pic%201.PNG", 
-  "description": "This project was the first project we did using JQuery. We were tasked to create a web application that would take each planet in the solar system and list the title on a card. When you hovered over the card, a picture of the planet would appear. When you click on the planet it would pop up a fullscreen modal that would give descriptions and facts about the planet. It also has a search bar on the main page where you can search for keywords and planets.",
+  "description": "I was tasked to create a web application that would take each planet in the solar system and list the title inside of a card display. When a user hovered over the card, a picture of the planet would appear. When you click on the planet it would pop up a fullscreen modal that would give descriptions and facts about the planet.",
   "technologiesUsed": "HTML5, CSS, Javascript, jQuery, Sass, NPM, Webpack, and Version Control with Github",
   "url": "https://solarsystem-7ac16.firebaseapp.com",
   "githubUrl": "https://github.com/phillipsja97/solar-system"
@@ -11,7 +11,7 @@
 "project2": {
   "title": "My Tamagotchi Pet Web Application", 
   "screenshot": "https://raw.githubusercontent.com/phillipsja97/Tamagotchi/master/src/Screenshot.PNG",
-  "description": "The web application is divided into quadrants. Each quadrant has a different background color and represents a different activity that you can perform which are: Eat, Play, Sleep and Fight. Each quadrant has a progress bar that will show the status of the pet's level's. There is also an overall status bar in the middle which takes in the average of the 4 quadrants to also show the overall status of the pet.", 
+  "description": "The web application is divided into quadrants. Each quadrant has a different background color and represents a different activity that you can perform which are: Eat, Play, Sleep and Fight. Each quadrant has a progress bar that will show the status of the pet's level's.",
   "technologiesUsed": "HTML, CSS, JavaScript, Sass, NPM, Webpack, and Version Control with Github",
   "url": "https://tamagotchi-ee0bd.firebaseapp.com/",
   "githubUrl": "https://github.com/phillipsja97/Tamagotchi"

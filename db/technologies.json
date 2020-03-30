@@ -81,5 +81,35 @@
     "name": "Webpack Module Bundler",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Webpack.png",
     "description": "modules"
+  },
+
+  "technologies15": {
+    "name": "C-Sharp",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_Sharp_logo.svg/1200px-C_Sharp_logo.svg.png",
+    "description": "csharp"
+  },
+
+  "technologies16": {
+    "name": ".NET",
+    "imageUrl": "https://pngimage.net/wp-content/uploads/2018/06/net-logo-png-6-1.png",
+    "description": ".NET"
+  },
+
+  "technologies17": {
+    "name": "ASP.net",
+    "imageUrl": "https://pngimage.net/wp-content/uploads/2018/05/aspnet-logo-png-transparent.png",
+    "description": "aspnet"
+  },
+
+  "technologies18": {
+    "name": "postman",
+    "imageUrl": "https://ww1.prweb.com/prfiles/2017/04/12/14767541/200x200_360%20logo.png",
+    "description": "postman API"
+  },
+
+  "technologies19": {
+  "name": "SQL",
+  "imageUrl": "https://clipart.info/images/ccovers/1499955337microsoft-sql-server-logo-png.png",
+  "description": "sql"
   }
 }
