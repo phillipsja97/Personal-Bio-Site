@@ -9,7 +9,7 @@
 },
 
 "project2": {
-  "title": "My Tamagotchi Pet Web Application", 
+  "title": "My Tamagotchi Pet", 
   "screenshot": "https://raw.githubusercontent.com/phillipsja97/Tamagotchi/master/src/Screenshot.PNG",
   "description": "The web application is divided into quadrants. Each quadrant has a different background color and represents a different activity that you can perform which are: Eat, Play, Sleep and Fight. Each quadrant has a progress bar that will show the status of the pet's level's.",
   "technologiesUsed": "HTML, CSS, JavaScript, Sass, NPM, Webpack, and Version Control with Github",
@@ -33,5 +33,14 @@
   "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Webpack, Firebase, NPM, Axios, Bootstrap, Sass, and Version Control with Github.",
   "url": "https://pinterest-b7a84.firebaseapp.com",
   "githubUrl": "https://github.com/phillipsja97/pinterest"
+  },
+
+  "project5": {
+  "title": "DigiCaddie (Front-End Capstone)",
+  "screenshot":"https://github.com/phillipsja97/digiCaddie/blob/master/src/Assets/digiCaddieScreenShot.png?raw=true",
+  "description": "Utilized React JS to build a web application that would allow users to search golf courses in their area and leave caddie tips on holes at that course. The application also allows users to keep up with their scores by charting their last 5 scores in a graph using amCharts and keeping a running average of their scores.",
+  "technologiesUsed": "React.JS, Javascript, HTML/CSS, Firebase, Webpack, Bootstrap, NPM, Axios, Version Control with Github.",
+  "url": "http://digicaddie-capstone.firebaseapp.com",
+  "githubUrl": "https://github.com/phillipsja97/digiCaddie"
   }
-}
+} 
