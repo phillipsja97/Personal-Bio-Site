@@ -11,7 +11,7 @@
 "project2": {
   "title": "My Tamagotchi Pet", 
   "screenshot": "https://raw.githubusercontent.com/phillipsja97/Tamagotchi/master/src/Screenshot.PNG",
-  "description": "The web application is divided into quadrants. Each quadrant has a different background color and represents a different activity that you can perform which are: Eat, Play, Sleep and Fight. Each quadrant has a progress bar that will show the status of the pet's level's.",
+  "description": "The web application is divided into quadrants. Each quadrant has a different background color and represents a different activity that you can perform which are: Eat, Play, Sleep and Fight. Each quadrant has a progress bar that will show the status of the pet's level's. This project was a first introduction into node modules.",
   "technologiesUsed": "HTML, CSS, JavaScript, Sass, NPM, Webpack, and Version Control with Github",
   "url": "https://tamagotchi-ee0bd.firebaseapp.com/",
   "githubUrl": "https://github.com/phillipsja97/Tamagotchi"
@@ -20,7 +20,7 @@
 "project3": {
   "title": "Shark Attack Web Application",
   "screenshot": "https://github.com/phillipsja97/shark-attack/blob/master/src/Assets/SharkAttackSreenshot.PNG?raw=true",
-  "description": "This application was my introduction to React. The application is divided up into two sections, Shark Tank and Graveyard. The students from class are loaded in the Shark Tank and shark attack button randomizes a student being eaten and sent to the Graveyard.",
+  "description": "This application was my introduction to React. The application is divided up into two sections, Shark Tank and Graveyard. The students from class are loaded in the Shark Tank and shark attack button randomizes a student being eaten and sent to the Graveyard. Main goal of this project was dealing with state and props.",
   "technologiesUsed": "HTML, CSS, JavaScript, NPM, Firebase, Bootstrap, Sass, React and Version Control with Github.",
   "url": "https://shark-attack-3d879.firebaseapp.com",
   "githubUrl": "https://github.com/phillipsja97/shark-attack"
@@ -42,5 +42,14 @@
   "technologiesUsed": "React.JS, Javascript, HTML/CSS, Firebase, Webpack, Bootstrap, NPM, Axios, Version Control with Github.",
   "url": "http://digicaddie-capstone.firebaseapp.com",
   "githubUrl": "https://github.com/phillipsja97/digiCaddie"
+  },
+
+  "project6": {
+  "title": "Spotify Dashboard",
+  "screenshot":"https://github.com/phillipsja97/react-spotify/blob/master/src/Assets/SpotifyScreenshot.PNG?raw=true",
+  "description": "Utilized React.JS and a Node.JS server to create a dashboard of spotify users top songs, artists and playlists using Spotify's open-source Web API.",
+  "technologiesUsed": "Spotify Open-Source Web API, Node.JS, Express.JS, React.JS, Javascript, HTML/CSS, Firebase, Material-UI, React-Router-DOM, React Bootstrap, NPM, Version Control with Github.",
+  "url": "https://spotify-dashboard-3973d.web.app/",
+  "githubUrl": "https://github.com/phillipsja97/react-spotify"
   }
 } 
